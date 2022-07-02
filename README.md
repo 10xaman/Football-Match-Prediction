@@ -59,9 +59,9 @@ In order to utilise as much previous match data as possible, whilst minimising t
 - HR - Home Team Red Card
 - Ar - Away Team Red Card
 
-The above describes the features for a single team. Like-for-like features were visualised in figure 1, and demonstrate that the chosen features have some influence on the outcome of a match, with the exception of number of fouls, which appears to have little correlation with the target result.
+The above describes the features for a single team. Like-for-like features were visualised in figure 1, and demonstrate that the chosen features have some influence on the outcome of a match.
 
-<img src="" alt="Figure 1">
+<img src="https://github.com/10xaman/Football-Match-Prediction/blob/main/images/1.png" alt="Figure 1">
 
 <em>Figure 1. Green dots indicate a 'team' win and blue dots indicate an opponent win. Dots in the bottom left quadrant indicate a poor quality team and opponent, top left: low quality team and high quality opponent, top right: high quality team and opponent, bottom right: high quality team and low quality opponent.</em>
 
@@ -79,7 +79,7 @@ These algorithms were selected and tested from the library: scikit-learn.
 
 Along with accuracy, graph plotting were initially used to evaluate model performance, displayed in figure 2 below.
 
-<img src="" alt="Figure 2">
+<img src="https://github.com/10xaman/Football-Match-Prediction/blob/main/images/2.png" alt="Figure 2">
 
 <em>Figure 2. (a) Naive Bayes - 57.2% accuracy (b) SVM model - 61.2% accuracy (c) Logistic regression - 59.1% accuracy</em>
 
@@ -87,7 +87,7 @@ Immediate inspection of these matrices shows all three models are performing poo
 
 - After normalization
 
-<img src="" alt="Figure 3">
+<img src="https://github.com/10xaman/Football-Match-Prediction/blob/main/images/3.png" alt="Figure 3">
 
 <em>Figure 2. (a)  - 48.4% accuracy (b) SVM model - 59.3% accuracy (c) Logistic regression - 60.9% accuracy</em>
 
